@@ -1,0 +1,33 @@
+{
+    "name": "project-bootstrap",
+    "version": "1.0.0",
+    "description": "",
+    "source": "./src/index.html",
+    "scripts": {
+        "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+        "dev": "parcel src/index.html",
+        "build": "parcel build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elena-mb/project-bootstrap.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/elena-mb/project-bootstrap/issues"
+    },
+    "homepage": "https://github.com/elena-mb/project-bootstrap#readme",
+    "devDependencies": {
+        "parcel": "^2.7.0"
+    },
+    "dependencies": {
+        "@parcel/transformer-sass": "^2.7.0",
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.0",
+        "parcel": "^2.7.0",
+        "parcel-bundler": "^1.12.5",
+        "scss": "^0.2.4"
+    }
+}
